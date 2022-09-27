@@ -62,7 +62,7 @@ int dinsert_cen(struct node **head, int data, int pos)
     struct node *temp, *ptr, *nnode;
     int i = 1;
     temp = (struct node *)malloc(sizeof(struct node));
-    ptr = *head;
+    ptr = *head; 
     temp->data = data;
     if (pos == 1)
     {
